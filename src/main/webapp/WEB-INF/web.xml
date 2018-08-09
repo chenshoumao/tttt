@@ -10,8 +10,18 @@
   	<description></description>
   	<servlet-class>com.csm.Test</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>TT</servlet-name>
+  	<display-name>TT</display-name>
+  	<description></description>
+  	<servlet-class>com.csm.TT</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Test</servlet-name>
   	<url-pattern>/Test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TT</servlet-name>
+  	<url-pattern>/TT</url-pattern>
   </servlet-mapping>
 </web-app>
