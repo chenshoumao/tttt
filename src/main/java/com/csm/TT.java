@@ -28,7 +28,7 @@ public class TT extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		PrintWriter out = response.getWriter();
-		out.print("Hello World1212!!");
+		out.print("Hello CSM!!");
 	}
 
 	/**
