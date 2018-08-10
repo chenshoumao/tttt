@@ -27,15 +27,12 @@ mvn clean install
 killTomcat
 
 # 删除原有工程
-rm -rf $TOMCAT_APP_PATH/webapps/ROOT
-rm -f $TOMCAT_APP_PATH/webapps/ROOT.war
+rm -rf $TOMCAT_APP_PATH/webapps/tttt
 rm -f $TOMCAT_APP_PATH/webapps/tttt.war
 
 # 复制新的工程
 cp $PROJ_PATH/tttt/target/tttt.war $TOMCAT_APP_PATH/webapps/
 
-cd $TOMCAT_APP_PATH/webapps/
-mv tttt.war ROOT.war
 
 # 启动Tomcat
 cd $TOMCAT_APP_PATH/
